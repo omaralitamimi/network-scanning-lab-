@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-09-01T10:02:00+00:00",
+    "source_ip": "192.0.2.25",
+    "failed_attempts": 3,
+    "users": [
+      "alice",
+      "bob"
+    ],
+    "finding": "Repeated authentication failures; investigate, not proof of compromise"
+  }
+]

@@ -1,29 +1,31 @@
-# Network Scanning Lab
+# Omar Altamimi | Cybersecurity Learning Portfolio
 
-A learning portfolio by **Omar Altamimi**, a cybersecurity student at the University of Aden and Google Cybersecurity Certificate holder.
+Cybersecurity student at the **University of Aden** (2024-2028 expected) and holder of the **Google Cybersecurity Professional Certificate**. Based in Aden, Yemen; interested in entry-level SOC Analyst and Cybersecurity Analyst roles.
 
-## Focus
+[LinkedIn](https://www.linkedin.com/in/omar-altamimi-a5661433a/) · [Certificate](https://coursera.org/verify/professional-cert/Q1ZMD05KU4Z9) · [All certificates](CERTIFICATIONS.md)
 
-This repository is intended to document network-scanning practice with Nmap and Kali Linux, with an emphasis on explaining observations clearly for an entry-level cybersecurity portfolio.
+## Featured projects
 
-## Current evidence
+| Project | What it does | Start here |
+|---|---|---|
+| Authentication Event Triage | Detects repeated failures in a rolling window | [Guide and evidence](portfolio/auth-triage/) |
+| Nmap XML Inventory | Summarizes open services in an existing report | [Guide and evidence](portfolio/nmap-inventory/) |
+| HTTP Security Header Review | Reviews saved headers with contextual caveats | [Guide and evidence](portfolio/header-review/) |
 
-- [Uploaded lab screenshot](./kali-linux-2025.2-vmware-amd64-2026-02-16-00-30-45.png)
+The projects are offline, AI-assisted learning exercises with synthetic datasets, runnable code, tests and clearly stated limitations. They do not claim production deployments or real incident outcomes.
 
-The repository does not yet include a written scan report or raw scan output. Specific findings and completed outcomes are not claimed here.
+## Existing network lab
 
-## Documentation roadmap
+[Original uploaded lab screenshot](./kali-linux-2025.2-vmware-amd64-2026-02-16-00-30-45.png). A written report for that original exercise is not yet included; the new sample XML is separate synthetic training data.
 
-- Record the lab environment, target ownership and authorized scope.
-- Add the commands used and explain the purpose of each option.
-- Preserve sanitized output and distinguish open ports from confirmed vulnerabilities.
-- Explain findings, limitations and recommended defensive follow-up.
+## Technical foundation
+
+Python · Linux / Kali Linux · Nmap · Wireshark · SQL · Network security · Web-security fundamentals
+
+## Run and learn
+
+See the [portfolio guide](portfolio/README.md) for commands, expected results and interview discussion prompts. Python 3.10+; no external dependencies.
 
 ## Responsible practice
 
-Run exercises only on systems you own or have explicit permission to assess. Remove credentials and personal or third-party information before publishing evidence.
-
-## Author
-
-- [LinkedIn](https://www.linkedin.com/in/omar-altamimi-a5661433a)
-- [GitHub](https://github.com/omaralitamimi)
+Use only authorized systems and sanitized data. Findings are prompts for investigation, not automatic proof of a security incident or vulnerability.

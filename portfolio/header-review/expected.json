@@ -1,0 +1,36 @@
+[
+  {
+    "header": "content-security-policy",
+    "values": [],
+    "status": "missing: review recommended",
+    "guidance": "Review allowed sources and directives; presence alone does not prove XSS protection."
+  },
+  {
+    "header": "strict-transport-security",
+    "values": [],
+    "status": "missing: review recommended",
+    "guidance": "Check max-age and domain coverage; applicable to HTTPS responses."
+  },
+  {
+    "header": "x-content-type-options",
+    "values": [
+      "nosniff"
+    ],
+    "status": "nosniff configured",
+    "guidance": "Expected value: nosniff."
+  },
+  {
+    "header": "referrer-policy",
+    "values": [
+      "strict-origin-when-cross-origin"
+    ],
+    "status": "present: manual review required",
+    "guidance": "Review policy against application privacy requirements."
+  },
+  {
+    "header": "permissions-policy",
+    "values": [],
+    "status": "missing: review recommended",
+    "guidance": "Limit browser features to the application requirements."
+  }
+]

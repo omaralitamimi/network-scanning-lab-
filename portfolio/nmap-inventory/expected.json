@@ -1,0 +1,20 @@
+[
+  {
+    "addresses": [
+      "192.0.2.10"
+    ],
+    "protocol": "tcp",
+    "port": 22,
+    "service": "ssh",
+    "interpretation": "Open service; not a confirmed vulnerability"
+  },
+  {
+    "addresses": [
+      "192.0.2.10"
+    ],
+    "protocol": "tcp",
+    "port": 443,
+    "service": "https",
+    "interpretation": "Open service; not a confirmed vulnerability"
+  }
+]
