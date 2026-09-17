@@ -1,0 +1,18 @@
+From: Training IT <helpdesk@example.com>
+To: Analyst <analyst@example.org>
+Reply-To: Review Desk <review@example.net>
+Subject: SYNTHETIC TRAINING - Account review request
+MIME-Version: 1.0
+Authentication-Results: untrusted.example; spf=pass
+Content-Type: multipart/mixed; boundary="lab-boundary"
+
+--lab-boundary
+Content-Type: text/html; charset=utf-8
+
+<html><body><p>Fictional training message only.</p><a href="https://example.net/account-review">Review your account</a></body></html>
+--lab-boundary
+Content-Type: text/plain
+Content-Disposition: attachment; filename="training-note.txt"
+
+Synthetic harmless attachment. No executable content.
+--lab-boundary--
