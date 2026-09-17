@@ -11,6 +11,9 @@ Cybersecurity student at the **University of Aden** (2024-2028 expected) and hol
 | Authentication Event Triage | Detects repeated failures in a rolling window | [Guide and evidence](portfolio/auth-triage/) |
 | Nmap XML Inventory | Summarizes open services in an existing report | [Guide and evidence](portfolio/nmap-inventory/) |
 | HTTP Security Header Review | Reviews saved headers with contextual caveats | [Guide and evidence](portfolio/header-review/) |
+| Offline Email Triage | Inventories mail domains, URLs and attachment hashes without visiting links | [Guide and evidence](portfolio/email-triage/) |
+| SQL Authentication Investigation | Correlates failed and successful logins with asset enrichment | [Guide and evidence](portfolio/sql-investigation/) |
+| SOC Incident Case Study | Documents evidence, alternative hypotheses and proposed response | [Case study](portfolio/incident-response/) |
 
 The projects are offline, AI-assisted learning exercises with synthetic datasets, runnable code, tests and clearly stated limitations. They do not claim production deployments or real incident outcomes.
 
