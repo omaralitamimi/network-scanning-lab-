@@ -7,7 +7,6 @@ Six reproducible, offline learning projects for entry-level SOC and cybersecurit
 | [Authentication triage](auth-triage/) | Python, time-window detection, investigation | Synthetic CSV and generated alert |
 | [Nmap inventory](nmap-inventory/) | Network exposure interpretation | Synthetic XML and open-service inventory |
 | [Header review](header-review/) | Web hardening and technical reporting | Synthetic headers and contextual findings |
-
 | [Email triage](email-triage/) | MIME, domain review, evidence inventory | Synthetic email, JSON output, tests |
 | [SQL investigation](sql-investigation/) | SQL joins, time correlation, enrichment | Synthetic database and query results |
 | [Incident case study](incident-response/) | Triage reasoning and reporting | Fictional timeline and response plan |
