@@ -1,0 +1,28 @@
+{
+  "subject": "SYNTHETIC TRAINING - Account review request",
+  "from_domains": [
+    "example.com"
+  ],
+  "reply_to_domains": [
+    "example.net"
+  ],
+  "url_hosts": [
+    "example.net"
+  ],
+  "malformed_urls": 0,
+  "attachments": [
+    {
+      "filename": "training-note.txt",
+      "bytes": 53,
+      "sha256": "f6cacd9cfb2565d43cba094aa40cda3bba634eb0efb92b963813612e0d185431"
+    }
+  ],
+  "authentication_results_untrusted": [
+    "untrusted.example; spf=pass"
+  ],
+  "review_flags": [
+    "From and Reply-To domains differ; verify legitimate routing before escalating.",
+    "Attachments present; hashes are inventory only, not malware verdicts."
+  ],
+  "verdict": "manual_review_required"
+}
