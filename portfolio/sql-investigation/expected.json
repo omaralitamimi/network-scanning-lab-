@@ -1,0 +1,10 @@
+[
+  {
+    "success_event": "E04",
+    "success_time": "2026-01-01T10:03:00Z",
+    "user_name": "lab-user",
+    "source_ip": "198.51.100.20",
+    "preceding_failures": 3,
+    "asset": "not in supplied inventory"
+  }
+]
